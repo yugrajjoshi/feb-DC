@@ -1,55 +1,114 @@
+html,
 body {
+    height: 100%;
     margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #0f172a;
-    color: white;
-    scroll-behavior: smooth;
 }
 
-nav {
-    position: fixed;
-    width: 100%;
-    padding: 15px;
-    background-color: rgba(15, 23, 42, 0.9);
-    text-align: center;
-    font-weight: bold;
-    z-index: 1000;
+.body {
+    min-height: 100vh;
+    background: url('./assets/earth_curvature.png') center/cover no-repeat;
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    color:azure;
 }
 
-.hero {
-    height: 100vh;
+.heading{
+    margin-top: 1%;
+    margin-left: 50px;
+    color: rgb(129, 148, 224);
+    font-size: 6em;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:
+     1px -1px 0 black,
+     1px 1px 0 black;
+    
+}
+.para{
+    margin-left: 50px;
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:
+     1px -1px 0 black,
+     1px 1px 0 black;
+    
+}
+.globalwarming{
+    position:relative;
+    top:-420px;
+    left:750px;
+
+}
+
+.heading2 {
+    margin-left: 30px;
+}
+
+.panel {
+    line-height: 1.5;
+    margin-left: 40px;
+    border-radius: 25px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.panel--w50 {
+    width: 50%;
+}
+
+.panel--w45 {
+    width: 45%;
+}
+
+.panel--bg-light {
+    background: rgba(116, 135, 156, 0.1);
+}
+
+.panel--bg-medium {
+    background: rgba(116, 135, 156, 0.3);
+}
+
+.panel--co2 {
+    margin-top: 40px;
+    width: auto;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.globalwarming + .panel--co2 {
+    margin-top: -25%;
+}
+
+.co2-image {
+    width: 50%;
+    margin-left: 10px;
+}
+
+.co2-text {
+    max-width: 45%;
+    margin-left: 10px;
+}
+
+.co2-row {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to right, #1e293b, #0f172a);
-    text-align: center;
+    gap: 20px;
+    align-items: flex-start;
 }
 
-.hero h1 {
-    font-size: 3em;
-    color: #f97316;
+.co2-title {
+    width: 50%;
+    margin-left: 10px;
 }
 
-.section {
-    padding: 100px 20px;
-    max-width: 900px;
-    margin: auto;
-    text-align: center;
+.ml-30 {
+    margin-left: 30px;
 }
 
-.section h2 {
-    color: #f97316;
-    margin-bottom: 20px;
+.ml-40 {
+    margin-left: 40px;
 }
 
-.image-section img {
-    max-width: 90%;
-    border-radius: 12px;
-    margin: 30px 0;
-}
-
-.footer {
-    background-color: #1e293b;
-    padding: 50px 20px;
+.ml-50 {
+    margin-left: 50px;
 }

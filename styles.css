@@ -65,7 +65,7 @@ body {
 }
 
 .panel--bg-medium {
-    background: rgba(116, 135, 156, 0.3);
+    background: rgba(116, 135, 156, 0.1);
 }
 
 .panel--co2 {
@@ -111,4 +111,14 @@ body {
 
 .ml-50 {
     margin-left: 50px;
+}
+
+
+.footer {
+    background: rgba(116, 135, 156, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: -10%;
+    width: 120%;
 }

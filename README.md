@@ -48,6 +48,10 @@ These results provide strong statistical support for the relationship observed i
 
 This analysis shows that both CO₂ emissions and global temperature anomalies increase substantially across the industrial and post-industrial periods. The merged dataset and regression metrics support a clear positive relationship between higher emissions and higher temperature anomalies.
 
+- Correlation: **0.815**
+- R²: **0.6646**
+- Post-1950 warming rate: **about 4x higher** than the earlier period
+
 ## Resources Used
 
 - Our World in Data — CO₂ emissions per capita dataset

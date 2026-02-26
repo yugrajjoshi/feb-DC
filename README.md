@@ -22,19 +22,19 @@ Industrialization began in the mid-18th century and expanded significantly after
 
 ## CO₂ Rise (CO₂ Plot)
 
-![CO₂ Emissions Plot](./co2plotemmision.png)
+![CO₂ Emissions Plot](./assets/co2plotemmision.png)
 
 The CO₂ emissions per capita trend remains comparatively low in earlier years and then rises sharply during the modern industrial era, particularly after 1950. This pattern indicates a sustained structural increase in carbon output associated with industrial expansion, rising energy demand, and large-scale fossil fuel consumption.
 
 ## Temperature Rise from the Industrial Period
 
-![Temperature Rise Plot](./temperature_rise_plot.png)
+![Temperature Rise Plot](./assets/temperature_rise_plot.png)
 
 The temperature anomaly series shows a comparable upward pattern over time. Although early values fluctuate around lower levels, the later industrial period exhibits stronger and more frequent positive anomalies. Visually, the temperature trend increases alongside the CO₂ trend, indicating that both series accelerate in a similar direction.
 
 ## Merged Plot and Regression Relationship
 
-![CO₂ vs Temperature Merged Plot](./mergedplot.png)
+![CO₂ vs Temperature Merged Plot](./assets/mergedplot.png)
 
 After merging CO₂ per capita and temperature anomaly by year, the scatter plot demonstrates a clear positive relationship. Regression and correlation outputs indicate a strong association between rising CO₂ levels and higher global temperature anomaly values:
 

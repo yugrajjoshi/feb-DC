@@ -60,4 +60,4 @@ This analysis shows that both CO₂ emissions and global temperature anomalies i
 
 ## Thanks
 
-Thank you for reviewing this climate analysis project for the Codedex Dataset Challenge.
+Thank you for reviewing this climate analysis project is for the Codedex Dataset Challenge.
